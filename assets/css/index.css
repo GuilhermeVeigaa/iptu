@@ -5,6 +5,7 @@
 
 body {
     background-color: #0d6efd;
+    overflow-x: hidden;
 }
 
 #nav-container {
