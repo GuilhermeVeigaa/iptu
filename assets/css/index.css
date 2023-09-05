@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0d6efd;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#logo {
+    height: 4em;
+}
+
+#bar {
+    border-left: 1.5px solid #333;
+    height: 2.5em;
+}
+
+#nav-title {
+    padding-left: 1.2em ;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: black;
+}
+
+.main-container {
+    height: 100%;
+    margin-left: 3rem;
+}
+
+.text-container {
+    padding: 3rem 5rem;
+}
+
+#title-main {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-bottom: 0.6em;
+    font-size: 3.5em;
+}
+
+#subtitle-main {
+    font-family: 'Lato', sans-serif;
+    color:white;
+    font-size: 1.2em;
+}
+
+#services-main {
+    display: flex;
+}
+
+#brasao {
+    width: 280px;
+    margin-left: 20em;
+}
+
+#services-container {
+    width: 25em;
+    height: 18em;
+    margin-left: 5.2em;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+}
+
+#services-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 1em;
+    padding-left: 5.9em;
+}
+
+#iptu {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #281dbea8;
+    margin-top: 5em;
+    margin-left: 6.2em;
+    cursor: pointer;
+}
+
+#iptu:hover {
+    background-color: #281dbe;
+}
+
+#iptu-text {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+#call{
+    padding: 4.5em 8em;
+}
+
+#call-link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+#call-p {
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 15.5px;
+}
+
+#call-logo {
+    height: 24px;
+    width: 22px;
+}
+
+#footer-li {
+    display: flex;
+}
+
+footer {
+    margin-top: 9rem;
+}
+
+.container-fluid {
+    margin-left: 7.5rem;
+}
+
+#footer-container-d {
+    margin-right: 12em;
+}
+
+#h3-footer {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 1em;
+}
+
+#span-footer {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-right: 0.3em;
+}
+
+#p-footer {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+#p-copy {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
